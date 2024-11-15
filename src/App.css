@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+.mainContainer{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.button{
+  /* border: 1px solid red; */
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 35px;
+  text-decoration: underline;
+  color: white;
+  font-family: "butcherman", sans-serif;
+  font-style: oblique;
+  letter-spacing: 5px;
+
+
+}
+.navContainer{
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo{
+  height: 55vh;
+}
+
+.btnContainer{
+  /* border: solid green; */
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+.picContainer{
+  display: flex;
+  justify-content: space-around;
+}
+.picContainer img{
+  height: auto;
+  width: 600px;
+
+}
