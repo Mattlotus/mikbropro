@@ -8,6 +8,7 @@ import Home from './Pages/Home';
 import Profile from './Pages/Profile';
 import Commercial from './Pages/Commercial';
 import Portraits from './Pages/Portraits';
+import Booknow from './Pages/Booknow';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Route path='/commercial' element={<Commercial/>}/>
       <Route path='/portraits' element={<Portraits/>}/>
       <Route path='/profile' element={<Profile/>}/>
+      <Route path='/Booknow' element={<Booknow/>}/>
+
 
     </Routes>
   );
