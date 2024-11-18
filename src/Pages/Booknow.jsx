@@ -25,7 +25,7 @@ const Booknow = () => {
     console.log('Form Data Submitted:', formData);
     // You can send formData to an API or perform further processing here
   };
-
+  //  onScreen display
   return (
     <form onSubmit={handleSubmit}>
       <div>
