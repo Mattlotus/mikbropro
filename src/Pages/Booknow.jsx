@@ -53,7 +53,7 @@ const Booknow = () => {
       </div>
 
       <div>
-        <label htmlFor="message">Message:</label>
+        <label htmlFor="message">Msg:</label>
         <textarea
           id="message"
           name="message"
