@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import logo from '../MBP LOGO.png';
 
 
@@ -31,6 +31,7 @@ const Booknow = () => {
     <form onSubmit={handleSubmit}>
       <div className='formContainer'>
         <div>
+        <img className="logo" src={logo}/>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
