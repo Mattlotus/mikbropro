@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import logo from '../MBP LOGO.png';
 
 
 const Booknow = () => {
@@ -28,7 +29,8 @@ const Booknow = () => {
   //  onScreen display
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div className='formContainer'>
+        <div>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -50,13 +52,14 @@ const Booknow = () => {
           onChange={handleChange}
           required
         />
-      </div>
+        </div>
 
-      <div>
-        <label htmlFor="message">Msg:</label>
+
+        <div>
+        <label htmlFor="phone">Phone:</label>
         <textarea
-          id="message"
-          name="message"
+          id="phone"
+          name="phone"
           value={formData.message}
           onChange={handleChange}
           required
@@ -64,8 +67,8 @@ const Booknow = () => {
       </div>
 
       <button type="submit">Submit</button>
+      </div>
     </form>
   );
 };
-
 export default Booknow;

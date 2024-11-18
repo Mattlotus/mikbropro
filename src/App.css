@@ -19,8 +19,6 @@
   font-family: "butcherman", sans-serif;
   font-style: oblique;
   letter-spacing: 5px;
-
-
 }
 .navContainer{
   /* border: solid red; */
@@ -28,11 +26,9 @@
   justify-content: space-between;
 
 }
-
 .logo{
   height: 55vh;
 }
-
 .btnContainer{
   /* border: solid green; */
   display: flex;
@@ -47,5 +43,17 @@
 .picContainer img{
   height: auto;
   width: 600px;
+}
+.formContainer{
+  /* border: solid blue; */
+  background-color: tan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 10%
+  
+  
 
 }
